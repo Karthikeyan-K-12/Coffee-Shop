@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="shortcut icon" href="https://i.pinimg.com/600x315/55/ef/14/55ef14f04e5814e67d27bf1bec285d37.jpg">
+    <title>Coffee Time</title>
+</head>
+
+<style>
+    #home {
+        height: auto;
+        min-height: 45%;
+        background-image: url("https://www.tastingtable.com/img/gallery/are-coffee-beans-actually-beans/l-intro-1659019529.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        padding: 15rem 0;
+        overflow: hidden;
+        background-attachment: scroll;
+        position: relative;
+        width: 100%;
+    }
+
+    #about_us .about_image {
+        padding-top: 70px;
+    }
+    #about_us .jumbotron{
+        margin-top: 20vh;
+    }
+
+    #facility .our_facility {
+        padding-top: 60px;
+    }
+
+    #facility .img-thumbnail {
+        height: 20vh;
+    }
+    #menu .our_menu{
+        padding-top: 70px;
+    }
+
+    #menu .img-fluid {
+        height: 40vh;
+    }
+    #gallery .gallery{
+        padding-top: 70px;
+    }
+
+    #gallery .img-fluid {
+        height: 40vh;
+    }
+    #team .our_team{
+        padding-top: 70px;
+    }
+
+    #team .img-fluid {
+        height: 40vh;
+    }
+    #contact_us .contact_us{
+        padding-top: 70px;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="top_bar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-6 col-sm-6 col-xs-6">
+                        <nav class="navbar fixed-top navbar-expand-lg bg-white">
+                            <a href="#home" class="navbar-brand">
+                                <img src="https://i.pinimg.com/600x315/55/ef/14/55ef14f04e5814e67d27bf1bec285d37.jpg"
+                                    class="navbar-brand" alt="logo" width="80vh" height="60px">
+                            </a>
+                            <button class="navbar-toggler text-dark" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navigation">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-menu-button" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.5A1.5 1.5 0 0 1 1.5 0h8A1.5 1.5 0 0 1 11 1.5v2A1.5 1.5 0 0 1 9.5 5h-8A1.5 1.5 0 0 1 0 3.5v-2zM1.5 1a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5h-8z" />
+                                    <path
+                                        d="m7.823 2.823-.396-.396A.25.25 0 0 1 7.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0zM0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2H1zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2h14zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z" />
+                                </svg>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navigation">
+                                <ul class="navbar-nav ms-auto">
+                                    <li><a class="nav-link text-dark" href="#home">Home</a></li>
+                                    <li><a class="nav-link text-dark" href="#about_us">About</a></li>
+                                    <li><a class="nav-link text-dark" href="#facility">Facility</a></li>
+                                    <li><a class="nav-link text-dark" href="#menu">Menu</a></li>
+                                    <li><a class="nav-link text-dark" href="#gallery">Gallery</a></li>
+                                    <li><a class="nav-link text-dark" href="#team">Team</a></li>
+                                    <li><a class="nav-link text-dark" href="#contact_us">Contact</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section id="home">
+            <div class="container-fluid justify-content-center align-item-center">
+                <div class="row">
+                    <div class="col-lg-6 col-12 ms-auto">
+                        <div class="about jumbotron text-center text-white">
+                            <h1>Coffee Heaven</h1>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ad
+                                reprehenderit temporibus officiis est ratione magni reiciendis,
+                                aliquid, corrupti explicabo consequuntur iste. In eligendi voluptas ab, temporibus error
+                                non nam!</p>
+                            <a class="btn btn-primary" href="#about_us">About</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about_us">
+            <div class="container border">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 border">
+                        <div class="about_image">
+                            <img src="https://images6.alphacoders.com/116/1169766.jpg" class="img-fluid"
+                                alt="image">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 border">
+                        <div class="jumbotron bg-info">
+                            <h1 class="text-center">Coffee Heaven</h1>
+                            <p class="lead text-center">This is a simple hero unit, a simple jumbotron-style component
+                                for calling
+                                extra attention to featured content or information. Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Iusto minus, doloremque aspernatur voluptates doloribus
+                                illum est ipsum ratione quo. Sunt dolorum ullam provident illo quod cupiditate sequi
+                                neque, tempora autem? </p>
+                            <a class="btn btn-primary btn-lg mx-3 mb-2" href="#" role="button">About Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="facility">
+            <div class="container border">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="our_facility mt-2">
+                            <img src="https://i.pinimg.com/600x315/55/ef/14/55ef14f04e5814e67d27bf1bec285d37.jpg"
+                                height="75" width="80">
+                            <h1>Our Facility</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-3 col-xs-3 col-md-6 col-sm-12 border">
+                        <div class="variety mt-2">
+                            <img src="https://c4.wallpaperflare.com/wallpaper/165/385/241/coffee-cup-coffee-cup-caffeine-wallpaper-preview.jpg"
+                                class="img-thumbnail">
+                            <h4>Varieties Of Coffees</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-xs-3 col-md-6 col-sm-12 border">
+                        <div class="beans mt-2">
+                            <img src="https://media.gettyimages.com/videos/animation-video-of-falling-coffee-beans-in-slow-motion-video-id491926500?s=640x640"
+                                class="img-thumbnail">
+                            <h4>Coffee Beans</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-xs-3 col-md-6 col-sm-12 border">
+                        <div class="breakfast mt-2">
+                            <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/17/2c/f0/92/hot-number-coffee-croissant.jpg"
+                                class="img-thumbnail">
+                            <h4>Breakfast And Sweets</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-xs-3 col-md-6 col-sm-12 border">
+                        <div class="read mt-2">
+                            <img src="https://media.istockphoto.com/photos/cup-of-coffee-picture-id471360648?k=20&m=471360648&s=612x612&w=0&h=2A1kaqVXgEEHyObLCuispDpS39RJCytwF17qeiLClN0="
+                                class="img-thumbnail">
+                            <h4>Read To Go Coffee</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="menu">
+            <div class="container border">
+                <div class="row">
+                    <div class="our_menu">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pt-2">
+                            <img src="https://i.pinimg.com/600x315/55/ef/14/55ef14f04e5814e67d27bf1bec285d37.jpg"
+                                height="75" width="80">
+                            <h1>Our Menu</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 border pt-2">
+                        <img src="https://scpr.brightspotcdn.com/dims4/default/41beb9d/2147483647/strip/true/crop/640x427+0+0/resize/640x427!/quality/90/?url=http%3A%2F%2Fscpr-brightspot.s3.amazonaws.com%2Flegacy%2Fi%2Fe8bede62fc0ecda810c4d9b95c34b5c8%2F5b29a1f90161a1000dd58b73-original.jpg"
+                            class="img-fluid">
+                        <h3>Flat White</h3>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 border pt-2">
+                        <img src="https://c4.wallpaperflare.com/wallpaper/757/559/771/coffee-cappuccino-heart-love-cup-coffee-beans-wallpaper-preview.jpg"
+                            class="img-fluid">
+                        <h3>Cappuccino</h3>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 border pt-2">
+                        <img src="https://images.unsplash.com/photo-1551887194-1d5f13080a71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1vY2hhJTIwY29mZmVlfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                            class="img-fluid">
+                        <h3>Mocha Coffee</h3>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 border pt-2">
+                        <img src="https://img.freepik.com/premium-photo/cold-coffee-drink-frappe-frappuccino-with-whipped-cream-chocolate-chips-with-straws-dark-surface_186277-1293.jpg"
+                            class="img-fluid">
+                        <h3>Frappuccino</h3>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 border pt-2">
+                        <img src="https://www.healthifyme.com/blog/wp-content/uploads/2022/06/Black-Coffee-2-1.jpg"
+                            class="img-fluid">
+                        <h3>Black Coffee</h3>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 border pt-2">
+                        <img src="https://media.istockphoto.com/photos/cup-of-cafe-latte-with-coffee-beans-and-cinnamon-sticks-picture-id505168330?k=20&m=505168330&s=612x612&w=0&h=_InDMERgMkCfoNA-FUfRq0rYleC2xctGmSItIGeD8R4="
+                            class="img-fluid">
+                        <h3>Latte</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="gallery">
+            <div class="container border">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="gallery">
+                            <img src="https://i.pinimg.com/600x315/55/ef/14/55ef14f04e5814e67d27bf1bec285d37.jpg"
+                                height="75" width="80">
+                            <h1>Our Gallery</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-xs-4 col-md-4 col-sm-12 border">
+                        <div class="gallery_1">
+                            <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2020%2F08%2F20%2FGettyImages-1165807395-2000.jpg&q=60"
+                                class="img-fluid mt-2 mb-2">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xs-4 col-md-4 col-sm-12 border">
+                        <div class="gallery_2">
+                            <img src="https://thekitchencommunity.org/wp-content/uploads/2021/08/Chocolate-chip-pancakes.jpg"
+                                class="img-fluid mt-2 mb-2">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xs-4 col-md-4 col-sm-12 border">
+                        <div class="gallery_3">
+                            <img src="https://www.bettycrocker.com/-/media/GMI/Core-Sites/BC/Images/BC/recipe-heros/desserts/rainbow-layer-cake_hero.jpg?W=680"
+                                class="img-fluid mt-2 mb-2">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xs-4 col-md-4 col-sm-12 border">
+                        <div class="gallery_4">
+                            <img src="https://thumbs.dreamstime.com/b/pouring-milk-glass-background-nature-33132448.jpg"
+                                class="img-fluid mt-2 mb-2">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xs-4 col-md-4 col-sm-12 border">
+                        <div class="gallery_5">
+                            <img src="https://cdn.luxe.digital/media/2020/05/07203610/best-coffee-beans-luxe-digital.jpg"
+                                class="img-fluid mt-2">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xs-4 col-md-4 col-sm-12 border">
+                        <div class="gallery_6">
+                            <img src="https://media.glamour.com/photos/612d343de274243a3defbc8f/16:9/w_3855,h_2168,c_limit/1225546255"
+                                class="img-fluid mt-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 border">
+                        <div class="our_team mt-2">
+                            <img src="https://i.pinimg.com/600x315/55/ef/14/55ef14f04e5814e67d27bf1bec285d37.jpg"
+                                height="75" width="80">
+                            <h1>Our Team</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-xs-4 col-sm-4 col-md-12 border">
+                        <div class="deo pt-2">
+                            <img src="https://png.pngtree.com/png-vector/20190501/ourmid/pngtree-users-icon-design-png-image_1014936.jpg"
+                                class="img-fluid">
+                            <h3>John Deo</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xs-4 col-sm-4 col-md-12 border">
+                        <div class="john pt-2">
+                            <img src="https://i.pinimg.com/736x/5f/40/6a/5f406ab25e8942cbe0da6485afd26b71.jpg"
+                                class="img-fluid">
+                            <h3>John charles</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xs-4 col-sm-4 col-md-12 border">
+                        <div class="charles pt-2">
+                            <img src="https://i.pinimg.com/736x/89/90/48/899048ab0cc455154006fdb9676964b3.jpg"
+                                class="img-fluid">
+                            <h3>John Son</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xs-4 col-sm-4 col-md-12 border">
+                        <div class="robert pt-2">
+                            <img src="https://png.pngtree.com/png-vector/20190704/ourlarge/pngtree-businessman-user-avatar-free-vector-png-image_1538405.jpg"
+                                class="img-fluid">
+                            <h3>John Robert</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xs-4 col-sm-4 col-md-12 border">
+                        <div class="michael pt-2">
+                            <img src="https://png.pngtree.com/png-vector/20190501/ourmid/pngtree-users-icon-design-png-image_1014936.jpg"
+                                class="img-fluid">
+                            <h3>John Michael</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xs-4 col-sm-4 col-md-12 border">
+                        <div class="allen pt-2">
+                            <img src="https://i.pinimg.com/736x/5f/40/6a/5f406ab25e8942cbe0da6485afd26b71.jpg"
+                                class="img-fluid">
+                            <h3>John Allen</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contact_us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 border">
+                    <div class="contact_us mt-2">
+                        <img src="https://i.pinimg.com/600x315/55/ef/14/55ef14f04e5814e67d27bf1bec285d37.jpg"
+                            height="75" width="80">
+                        <h1>Contact Us</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-xs-12 col-sm-6 col-md-6 border">
+                    <div class="shop_image mt-2 mb-2">
+                        <img src="https://img2023.weyesimg.com/uploads/ouyeedisplays.allweyes.com/images/15336344431566.jpg?imageView2/2/w/1920/q/75"
+                            class="img-fluid">
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xs-12 col-sm-6 col-md-6 border">
+                    <div class="book_table">
+                        <form class="border mt-5">
+                            <h2 class="text-center mt-2">Book A Table</h2>
+                            <input type="search" class="form-control mt-4 mx-3 w-75" placeholder="search">
+                            <input type="email" class="form-control mt-4 mx-3 w-75" placeholder="E-mail">
+                            <input type="number" class="form-control mt-4 mx-3 mb-2 w-75" placeholder="Mobile no">
+                            <a href="" class="btn btn-danger mt-3 mb-3 mx-3" role="button">Submit</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-xs-3 col-sm-12 col-md-12 border">
+                    <div class="icon_1 mt-2">
+                        <img src="https://www.pngrepo.com/png/124231/180/mail-send.png" class="img-circle"
+                            height="50px">
+                        <h3>Our Email</h3>
+                        <small><a href="">coffeetime@gmail.com</a></small><br>
+                        <small><a class="text-success" href="">coffeecakes@gmail.com</a></small>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xs-3 col-sm-12 col-md-12 border">
+                    <div class="icon_2 mt-2">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL7VrAqaqg0NwbzRc1A0-QKM_itmgTHZ0GTw&usqp=CAU"
+                            class="img-circle" height="50px">
+                        <h3 class="text-white">Our Twitter</h3>
+                        <small><a href="">Click To Visit</a></small><br>
+                        <small><a class="text-success" href="">Click To Join</a></small>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xs-3 col-sm-12 col-md-12 border">
+                    <div class="icon_3 mt-2">
+                        <img src="https://xiaomiui.net/wp-content/uploads/2022/05/Instagram-old-logo.webp"
+                            class="img-circle" height="50px">
+                        <h3>Our Instagram</h3>
+                        <small><a href="">Click To Visit</a></small><br>
+                        <small><a class="text-success" href="">Click To Join</a></small>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xs-3 col-sm-12 col-md-12 border">
+                    <div class="icon_4 mt-2">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhdtJtsfu6ZsphAulhtaREXF569tiKfhsGRQ&usqp=CAU"
+                            class="img-circle" height="50px">
+                        <h3>Our Facebook</h3>
+                        <small><a href="">Click To Visit</a></small><br>
+                        <small><a class="text-success" href="">Click To Join</a></small>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="col-12 border">
+                        <hr style="height: 3px;">
+                        <div class="copyright text-center">
+                            <h5>| copyright@ <span class="text-danger">coffeetime</span> |</h5>
+                        </div>
+                        <hr style="height: 3px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
